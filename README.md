@@ -21,33 +21,25 @@ A flashcard-style UI where students:
 
 | File | What it is |
 |------|------------|
-| `CQFlashcard.jsx` | The full React app |
-| `CQFlashcard.css` | All styles and design tokens |
-| `CQ_Flashcard_Mini_Spec.docx` | Product Requirement Document (Task 2) |
-| `Praxis_PM_Assessment_Full_Submission.docx` | All 3 tasks compiled into one document |
+| `app.jsx` | The full React app |
+| `index.css` | All styles and design tokens |
+| `Task2.docx` | Product Requirement Document (Task 2) |
+| `Task03.docx` | The Reality Check (Task 3) |
 
 ---
 
 ## Tech
 
 - **React + Vite** — frontend
-- **Google Gemini API (free tier)** — AI question generation
 - **Custom CSS** — no UI library, fully hand-crafted design
 
 ---
 
 ## How to Run
+Just Download and run this command in the terminal: npm run dev
 
-```bash
-git clone https://github.com/your-username/praxis-cq-flashcard
-cd praxis-cq-flashcard
-npm install
-npm run dev
-```
 
-Get a free Gemini API key at [aistudio.google.com](https://aistudio.google.com) and paste it into line 5 of `CQFlashcard.jsx`.
 
----
 
 ## Assessment Tasks
 
@@ -58,5 +50,3 @@ Get a free Gemini API key at [aistudio.google.com](https://aistudio.google.com) 
 **Task 3 — Reality Check:** Identified the core flaw (flashcards train memorisation, not thinking) and proposed two specific metrics to prove the feature drives real learning — Self-Grade Improvement Rate and Answer Attempt Rate Before Flip.
 
 ---
-
-*Submitted for the Praxis Academy Trainee PM Assessment — April 2026*
